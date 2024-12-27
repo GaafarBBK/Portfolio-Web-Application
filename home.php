@@ -67,7 +67,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     </main>
     <footer class="bg-blue-500 text-white p-4 mt-6">
         <div class="container mx-auto text-center">
-            <p>&copy; 2023 Travel News. All rights reserved.</p>
+            <p>&copy; 2024 Travel News. All rights reserved.</p>
         </div>
     </footer>
 </body>

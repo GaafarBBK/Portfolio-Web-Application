@@ -104,6 +104,9 @@ try {
                     <li class="mb-4">
                         <a href="home.php" class="text-white text-lg hover:text-gray-200">Home</a>
                     </li>
+                    <li class="mb-4">
+                        <a href="about.php" class="text-white text-lg hover:text-gray-200">About</a>
+                    </li>
                     <li>
                         <form method="post" action="" class="inline">
                             <button type="submit" name="logout" class="text-white text-lg hover:text-gray-200">Logout</button>
