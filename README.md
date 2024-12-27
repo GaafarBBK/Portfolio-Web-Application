@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   
-<h3 align="center">Admin Dashboard for Web Development Course</h3>
+<h3 align="center">Portfolio Project for Web Development Course</h3>
 
   <p align="center">
    <br />
@@ -15,26 +15,22 @@
 
 ### Features
 <ul>
-<li>Adding users to the system.</li>
-<li>Managing users in the system (removing, editing).</li>
-<li>Travel news.</li>
+<li>A portfolio resume of two innovators, Arjeeah Arjeeah & Mohamed Gaafar.</li>
+<li>Managing users in the web application.</li>
 </ul>
 
 ### Built With
+[![HTML][HTML.com]][HTML-url]
+[![CSS][CSS.com]][CSS-url]
 [![Tailwind][TailwindCSS]][Tailwind-url]
+[![Javascript][Javascript.com]][Javascript-url]
+[![PHP][PHP.com]][PHP-url]
 [![MySQL][MySQL.com]][MySQL-url]
-[![SQLite][SQLite.org]][SQLite-url]
-[![JWT][JWT-Auth]][JWT-Auth-url]
-[![Flutter][Flutter.dev]][Flutter.dev-url]
+[![Laragon][Laragon.org]][Laragon-url]
+[![Figma][Figma.com]][Figma-url]
 
-### Additional notes
-Late submission was due to the Github servers being down.
-
-The server is on Mohamed Gaafar's PC, when you want to turn it on contact me (contact details below)
 
 ## Installation & Setup
-
-### Frontend (Flutter)
 
 1. Clone the repo
    ```sh
@@ -46,9 +42,8 @@ The server is on Mohamed Gaafar's PC, when you want to turn it on contact me (co
    flutter pub get
    ```
 
-### Backend (Laravel)
+### Backend 
 
-Github Repository: https://github.com/GaafarBBK/captain-backend
 
 1. Clone the repo
    ```sh
@@ -75,30 +70,34 @@ Github Repository: https://github.com/GaafarBBK/captain-backend
    php artisan serve
    ```
 
-### Testing
-
-- **APK for Testing**: [Download APK](./flutter-apk/app-release.apk) to test the mobile app.
-  
-- **API Testing**: Use the provided [Postman Collection](./postman/Captain.postman_collection.json) for easy backend testing and validation of API endpoints (contact Mohamed Gaafar).
 
 ## Contact
 
 <ul>
   <li>Mohamed Gaafar - mohamedgaafar80@gmail.com (+218918709848)</li>
-  <li>Abdulrahman Rushdie - bdwm83249@gmail.com</li>
+  <li>Arjeeah Arjeeah - argea2004@gmail.com (+218911716177)</li>
 </ul>
 
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
 
-[SQLite.org]: https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white
-[SQLite-url]: https://www.sqlite.org/
+[Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[Javascript-url]: https://www.w3schools.com/js/
 
-[JWT-Auth]: https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white
-[JWT-Auth-url]: https://jwt-auth.readthedocs.io/en/develop/
+[PHP.com]: https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
+[PHP-url]: https://tailwindcss.com/
+
+[Figma.com]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+[Figma-url]: https://www.figma.com/
+
+[Laragon.org]: https://img.shields.io/badge/Laragon-0E83CD?style=for-the-badge&logo=Laragon&logoColor=white
+[Laragon-url]: https://laragon.org/
+
+[HTML.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://www.w3schools.com/html/
 
 [MySQL.com]: https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
 [MySQL-url]: https://www.mysql.com/
 
-[Flutter.dev]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
-[Flutter.dev-url]: https://flutter.dev/
+[CSS.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://www.w3schools.com/css/
