@@ -30,45 +30,7 @@
 [![Figma][Figma.com]][Figma-url]
 
 
-## Installation & Setup
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/GaafarBBK/captain.git
-   ```
-
-2. Run pub get
-   ```sh
-   flutter pub get
-   ```
-
-### Backend 
-
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/GaafarBBK/captain-backend.git
-   ```
-
-2. Navigate to the backend directory and install dependencies
-   ```sh
-   composer install
-   ```
-
-3. Generate the app key
-   ```sh
-   php artisan key:generate
-   ```
-
-4. Set up the database and run migrations
-   ```sh
-   php artisan migrate
-   ```
-
-5. Run the backend server
-   ```sh
-   php artisan serve
-   ```
 
 
 ## Contact
