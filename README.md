@@ -67,7 +67,7 @@
 #### 4. Configure MySQL Access
   <ul>
     <li>
-    Start your local server environment (Start All button for Laragon).
+    Start your local server environment (Open Laragon and click Start All).
    
    <li>
     Open your browser and navigate to <a href="http://localhost/Portfolio-Web-Application/create_database.php">http://localhost/Portfolio-Web-Application/create_database.php</a> to create the database using the provided <a href="./create_database.php">script</a>.
