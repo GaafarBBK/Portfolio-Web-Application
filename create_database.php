@@ -27,16 +27,18 @@ class DatabaseCreator
     {
         $dbName = 'users'; // Fixed database name
         try {
-            // Create database
-            $this->pdo->exec("CREATE DATABASE IF NOT EXISTS `$dbName`");
+            // Drop and recreate database
+            $this->pdo->exec("DROP DATABASE IF EXISTS `$dbName`");
+            $this->pdo->exec("CREATE DATABASE `$dbName`");
             echo "Database `$dbName` created successfully.\n";
 
             // Use the database
             $this->pdo->exec("USE `$dbName`");
 
-            // Create `users` table
+            // Drop and recreate `users` table
+            $this->pdo->exec("DROP TABLE IF EXISTS users");
             $this->pdo->exec("
-                CREATE TABLE IF NOT EXISTS users (
+                CREATE TABLE users (
                     user_id INT AUTO_INCREMENT PRIMARY KEY,
                     name VARCHAR(50) NOT NULL,
                     email VARCHAR(50) UNIQUE NOT NULL,
