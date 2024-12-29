@@ -37,7 +37,7 @@ class DatabaseCreator
             // Create `users` table
             $this->pdo->exec("
                 CREATE TABLE IF NOT EXISTS users (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    user_id INT AUTO_INCREMENT PRIMARY KEY,
                     name VARCHAR(50) NOT NULL,
                     email VARCHAR(50) UNIQUE NOT NULL,
                     password VARCHAR(5000) NOT NULL
