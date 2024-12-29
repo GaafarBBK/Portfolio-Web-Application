@@ -54,7 +54,7 @@
                 if ($stmt->fetch() && password_verify($password, $hashed_password)) {
                     session_start();
                     $_SESSION['loggedin'] = true;
-                    header("Location: index.php");
+                    header("Location: home.php");
                 } else {
                     header("Location: login.php?error=1");
                 }
