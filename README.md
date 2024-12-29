@@ -23,6 +23,7 @@
 [![HTML][HTML.com]][HTML-url]
 [![CSS][CSS.com]][CSS-url]
 [![Tailwind][TailwindCSS]][Tailwind-url]
+[![Bootstrap][BootstrapCSS]][Bootstrap-url]
 [![Javascript][Javascript.com]][Javascript-url]
 [![PHP][PHP.com]][PHP-url]
 [![MySQL][MySQL.com]][MySQL-url]
@@ -30,6 +31,61 @@
 [![Figma][Figma.com]][Figma-url]
 
 
+
+## Setup
+
+
+#### 1. Install and Set Up Laragon (or Localhost Environment)
+
+[![Laragon][Laragon.org]][Laragon-url]
+    <ul>
+    <li>Install 
+      or ensure your local server environment (e.g., XAMPP, WAMP, or MAMP) is installed and running.</li>
+      <li>Ensure MySQL is running within Laragon.</li>
+    </ul>
+
+    
+#### 2. Clone the repo
+
+   ```sh
+   git clone https://github.com/GaafarBBK/Portfolio-Web-Application.git
+   ```
+
+#### 3. Place project folder inside your local server's web root directory
+
+  <ul>
+  <li>XAMPP: Move the folder to htdocs.</li>
+  <li>Laragon: Place it in C:\laragon\www\.</li>
+  </ul>
+
+
+
+
+
+
+    
+#### 4. Configure MySQL Access
+  <ul>
+   <li>
+    Copy the provided <a href="./create_database.php">script</a> into your local server's web root directory (e.g. for Laragon put it in C:\laragon\www\create_database.php)
+   </li>
+    <li>
+    Start your local server environment (Apache and MySQL for Laragon, XAMPP, etc.).
+    </li>
+    <li>
+     Open your browser and navigate to <a href="http://localhost/create_database.php">http://localhost/create_database.php</a>.
+    </li>
+  </ul>
+
+
+#### 5. Start the Server
+
+  <ul>
+    <li>
+      Open your browser and go to 
+      <a href="http://localhost/Portfolio-Web-Application">http://localhost/Portfolio-Web-Application</a>
+    </li>
+  </ul>
 
 
 
@@ -42,6 +98,9 @@
 
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
+
+[BootstrapCSS]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
 
 [Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [Javascript-url]: https://www.w3schools.com/js/
